@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Balance checker</title>
+        <script src="CreditAndDebit.js" defer></script>
+        <style>
+            #btnCredit{
+                background-color: darkgreen;
+                border-radius: 3px;
+            }
+            #btnDebit{
+                background-color: red;
+                border-radius: 3px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Credit and Debit:</h1>
+        <label>Enter your Balance:</label>
+        <p id="pMassage">0</p><br>
+        <label>Enter your Amount:</label>
+        <input id="txtAmount" type="number" placeholder="Enter a number"><br>
+        <button id="btnCredit" onclick="onClickCredit()">(+) Credit</button>
+        <button id="btnDebit" onclick="onClickDebit()">(-) Debit</button>
+        <p id="pCreditResult"></p>
+        <p id="pDebitResult"></p>
+    </body>
+</html>
