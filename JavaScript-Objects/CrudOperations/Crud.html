@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CRUD Operations:</title>
+    <script src="Crud.js" defer></script>
+</head>
+
+<body>
+    <h1>CRUD Operations:</h1>
+    <label for="lblBag">Name:</label>
+    <input id="txtBag" type="text" placeholder="Enter your Bag Name"><br>
+    <label for="lblPrice">Price:</label>
+    <input id="txtPrice" type="number" placeholder="Enter your Price"><br>
+    <label for="lblColor">Bag Colour:</label>
+    <input id="txtColor" type="text" placeholder="Enter your Colour"><br>
+    <label for="lblMaterial">Material:</label>
+    <input id="txtMaterial" type="text" placeholder="Enter your Material"><br>
+    <label for="lblCompartments">Compartments:</label>
+    <input id="txtCompartments" type="number" placeholder="Enter your Compartments"><br>
+    <label for="lblresistance">Water resistance:</label>
+    <input id="txtResistance" type="text" placeholder="Enter your Water resistance"><br>
+    <button id="btnCreate" onclick="onClickCreate()">Create</button>
+    <div id="divCreate"></div>
+    <label for="lblProperty">Property:</label>
+    <input id="txtProperty" type="text" placeholder="Enter your Property"><br>
+    <button id="btnRead" onclick="onClickRead()">Read</button>
+    <div id="divRead"></div>
+    <button id="btnUpdate" onclick="onClickUpdate()">Update</button>
+    <div id="divUpdate"></div>
+    <button id="btnDelete" onclick="onClickDelete()">Delete</button>
+    <div id="divDelete"></div>
+</body>
+
+</html>
