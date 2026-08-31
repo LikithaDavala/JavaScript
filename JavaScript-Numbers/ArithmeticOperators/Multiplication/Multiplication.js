@@ -5,3 +5,8 @@ function onClickMultiplication() {
     var mulResult = firstNumber * secondNumber;
     document.getElementById("pResult").innerHTML = mulResult;
 }
+
+
+let  _btnMultiplication= document.getElementById("btnMultiplication");
+
+_btnMultiplication.addEventListener("click", onClickMultiplication);
