@@ -5,3 +5,9 @@ function onClickSubtraction() {
     var subResult = firstNumber - secondNumber;
     document.getElementById("pResult").innerHTML = subResult;
 }
+
+
+
+let _btnSubtraction = document.getElementById("btnSubtraction");
+
+_btnSubtraction.addEventListener("click", onClickSubtraction);
