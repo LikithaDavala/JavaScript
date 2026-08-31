@@ -5,3 +5,8 @@ function onClickDivision() {
     var divResult = firstNumber / secondNumber;
     document.getElementById("pResult").innerHTML = divResult;
 }
+
+
+let _btnDivision = document.getElementById("btnDivision");
+
+_btnDivision.addEventListener("click", onClickDivision);
