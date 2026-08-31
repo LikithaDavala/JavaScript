@@ -7,6 +7,6 @@ function onClickDivision() {
 }
 
 
-let _btnDivision = document.getElementById("btnDivision");
+let _btnDivision = document.getElementById("onClickDivision");
 
 _btnDivision.addEventListener("click", onClickDivision);
