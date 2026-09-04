@@ -9,6 +9,8 @@ function onClickPyramidTriangle() {
         for (let j = 1; j <= 2 * i - 1; j++) {
             output += symbol +"&nbsp;";
         }
+
+        
         output += "<br/>"
     }
     document.getElementById("divPyramidTriangle").innerHTML = output;
