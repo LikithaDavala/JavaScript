@@ -31,7 +31,6 @@ function add(a, b) {
 }
 add(5, 10);
 
-
 //Return Statement
 function add(a, b) {
     return a + b;
