@@ -67,6 +67,7 @@ function onClickSum(){
      document.getElementById("pDefault").innerHTML = x;
 }
 
-//Arrow Functions
+
+function
 
 
