@@ -68,6 +68,6 @@ function onClickSum(){
 }
 
 
-function
+function 
 
 
