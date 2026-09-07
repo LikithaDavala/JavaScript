@@ -6,8 +6,8 @@ function onClickMaximumValue() {
     var fourthNumber = Number(document.getElementById("txtFourthNumber").value);
     var fifthNumber = Number(document.getElementById("txtFifthNumber").value);
     var sixthNumber = Number(document.getElementById("txtSixthNumber").value);
-    var result = Math.max(firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber, sixthNumber);
-    document.getElementById("pMaxVlue").innerHTML = result;
+    var maxResult = Math.max(firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber, sixthNumber);
+    document.getElementById("pMaxVlue").innerHTML = maxResult;
 }
 
 function onClickMinimumValue(){
@@ -18,6 +18,6 @@ function onClickMinimumValue(){
     var fourthNumber = Number(document.getElementById("txtFourthNumber").value);
     var fifthNumber = Number(document.getElementById("txtFifthNumber").value);
     var sixthNumber = Number(document.getElementById("txtSixthNumber").value);
-    var result = Math.min(firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber, sixthNumber);
-    document.getElementById("pMaxVlue").innerHTML = result;
+    var minResult = Math.min(firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber, sixthNumber);
+    document.getElementById("pMaxVlue").innerHTML = minResult;
 }
