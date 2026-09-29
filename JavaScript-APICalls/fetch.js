@@ -8,6 +8,8 @@ function onClickFetch(){
         }
         return response.json();
       })
+
+      //promises
       .then(data => {
         // Display formatted JSON string inside the div
         document.getElementById('output').innerHTML = `<pre>${JSON.stringify(data, null, 10)}</pre>`;
