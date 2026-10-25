@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #1769aa;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Input focus */
+input:focus {
+    border-color: #1769aa;
+    box-shadow: 0 0 5px #1769aa40;
+}
+
+/* Calculate button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #104b7a;
+}
+
+/* Result and error message */
+#result {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e8f2fc;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+    text-align: center;
+    font-weight: bold;
+    min-height: 20px;
+}
