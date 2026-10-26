@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+h1 {
+    color: #1769aa;
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #104b7a;
+}
+
+button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
+
+.user-card {
+    background-color: #e8f2fc;
+    padding: 15px;
+    margin-top: 12px;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.user-card h3 {
+    color: #1769aa;
+    margin-top: 0;
+}
+
+.user-card p {
+    margin: 8px 0;
+}
+
+.error {
+    color: red;
+}
+
+#message {
+    text-align: center;
+}
